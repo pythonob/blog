@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    username: blogs
+    password: 123456@Gzc
+    url: jdbc:mysql://192.168.220.131:3306/blogs?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
